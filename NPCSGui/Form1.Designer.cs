@@ -31,6 +31,8 @@
             this.saveScriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.packgetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.extractToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,21 +63,22 @@
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openScriptToolStripMenuItem,
-            this.saveScriptToolStripMenuItem});
+            this.saveScriptToolStripMenuItem,
+            this.packgetToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(163, 56);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(182, 110);
             // 
             // openScriptToolStripMenuItem
             // 
             this.openScriptToolStripMenuItem.Name = "openScriptToolStripMenuItem";
-            this.openScriptToolStripMenuItem.Size = new System.Drawing.Size(162, 26);
+            this.openScriptToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.openScriptToolStripMenuItem.Text = "Open Script";
             this.openScriptToolStripMenuItem.Click += new System.EventHandler(this.openScriptToolStripMenuItem_Click);
             // 
             // saveScriptToolStripMenuItem
             // 
             this.saveScriptToolStripMenuItem.Name = "saveScriptToolStripMenuItem";
-            this.saveScriptToolStripMenuItem.Size = new System.Drawing.Size(162, 26);
+            this.saveScriptToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.saveScriptToolStripMenuItem.Text = "Save Script";
             this.saveScriptToolStripMenuItem.Click += new System.EventHandler(this.saveScriptToolStripMenuItem_Click);
             // 
@@ -88,6 +91,21 @@
             // 
             this.saveFileDialog1.Filter = "All SCX Scripts |*.scx";
             this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
+            // packgetToolStripMenuItem
+            // 
+            this.packgetToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.extractToolStripMenuItem});
+            this.packgetToolStripMenuItem.Name = "packgetToolStripMenuItem";
+            this.packgetToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.packgetToolStripMenuItem.Text = "Packget";
+            // 
+            // extractToolStripMenuItem
+            // 
+            this.extractToolStripMenuItem.Name = "extractToolStripMenuItem";
+            this.extractToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.extractToolStripMenuItem.Text = "Extract";
+            this.extractToolStripMenuItem.Click += new System.EventHandler(this.extractToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -114,6 +132,8 @@
         private System.Windows.Forms.ToolStripMenuItem saveScriptToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem packgetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem extractToolStripMenuItem;
     }
 }
 
