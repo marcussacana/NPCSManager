@@ -31,4 +31,4 @@ This is a <#000000[0x2414]#>sample <#FFFFFFtext
 ###Unknown
 this is a [0x112233...] sample text
 
-[0x??????] (3 bytes or more of length) = Unknown command, don't edit 
+[0x??????] \(3 bytes or more of length) = Unknown command, don't edit 
