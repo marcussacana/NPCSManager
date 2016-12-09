@@ -21,7 +21,7 @@ This is a sam[0x8400]le text
 ###Custom Color in Word
 This is a <#000000[0x2414]#>sample <#FFFFFFtext
 
-<#?????? = Being Color Tag (Don't need close if is the last color change)
+<#?????? = Begin of the Color Tag (Don't need close if is the last color change)
 
 [0x????] = Unknown Tag parameter
 
