@@ -73,5 +73,34 @@ namespace NPCSGui {
                 }
             }
         }
+
+        private void repackToolStripMenuItem_Click(object sender, EventArgs e) {
+            OpenFileDialog FD = new OpenFileDialog();
+            FD.Filter = "All MPK Files|*.mpk";
+            if (FD.ShowDialog() == DialogResult.OK) {
+                MPKManager Writer = new MPKManager(new StreamReader(FD.FileName).BaseStream);
+                string Dir = FD.FileName + "~\\";
+                List<NPCSManager.File> Files = new List<NPCSManager.File>();
+                foreach (string File in Directory.GetFiles(Dir))
+                    Files.Add(new NPCSManager.File() {
+                        Path = Path.GetFileName(File),
+                        Content = new StreamReader(File).BaseStream
+                    });
+                Writer.InjectFiles(Files.ToArray(), new StreamWriter(FD.FileName + "-patched.mpk").BaseStream);
+                foreach (NPCSManager.File f in Files)
+                    f.Content.Close();
+
+            }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e) {
+            if (e.KeyChar == '\n' || e.KeyChar == '\r') {
+                try {
+                    listBox1.Items[listBox1.SelectedIndex] = textBox1.Text;
+                } catch {
+
+                }
+            }
+        }
     }
 }

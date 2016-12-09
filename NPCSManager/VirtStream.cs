@@ -7,15 +7,14 @@ namespace NPCSManager {
 
     public struct File {
         public string Path;
-        public FileStream Content { get; internal set; }
+        public Stream Content;
     }
-
-    public class FileStream : Stream {
+    public class VirtStream : Stream {
         private Stream Packget;
         private long FilePos = 0;
         private long Len;
 
-        internal FileStream(Stream Packget, long Pos, long Len) {
+        internal VirtStream(Stream Packget, long Pos, long Len) {
             this.Packget = Packget;
             FilePos = Pos;
             this.Len = Len;
