@@ -10,15 +10,15 @@ Created to edit scripts from Steins;Gate 0: PC
 If You like, give-me a star plz~~
 
 
-##String Format
+## String Format
 
-###Unknown Letter
+### Unknown Letter
 This is a sam[0x8400]le text
 
 [0x????] = Letter missing in the Encoding.cs
 
 
-###Custom Color in Word
+### Custom Color in Word
 This is a <#000000[0x2414]#>sample <#FFFFFFtext
 
 <#?????? = Begin of the Color Tag (Don't need close if is the last color change)
@@ -28,7 +28,7 @@ This is a <#000000[0x2414]#>sample <#FFFFFFtext
 \#> = End of color tag
 
 
-###Unknown
+### Unknown
 this is a [0x112233...] sample text
 
 [0x??????] \(3 bytes or more of length) = Unknown command, don't edit 
