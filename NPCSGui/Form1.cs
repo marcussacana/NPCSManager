@@ -50,7 +50,7 @@ namespace NPCSGui {
 
         private void extractToolStripMenuItem_Click(object sender, EventArgs e) {
             OpenFileDialog FD = new OpenFileDialog();
-            FD.Filter = "All MPK Files|*.mpk";
+            FD.Filter = "All MPK Files |*.mpk|Vita/Steam CPK Files |*.cpk";
             if (FD.ShowDialog() == DialogResult.OK) {
                 MPKManager Reader = new MPKManager(new StreamReader(FD.FileName).BaseStream);
                 NPCSManager.File[] Files = Reader.Open();
@@ -76,7 +76,7 @@ namespace NPCSGui {
 
         private void repackToolStripMenuItem_Click(object sender, EventArgs e) {
             OpenFileDialog FD = new OpenFileDialog();
-            FD.Filter = "All MPK Files|*.mpk";
+            FD.Filter = "All MPK Files|*.mpk|Vita/Steam CPK Files |*.cpk";
             if (FD.ShowDialog() == DialogResult.OK) {
                 MPKManager Writer = new MPKManager(new StreamReader(FD.FileName).BaseStream);
                 string Dir = FD.FileName + "~\\";

@@ -107,7 +107,7 @@
             // 
             // saveFileDialog1
             // 
-            this.saveFileDialog1.Filter = "All SCX Scripts |*.scx";
+            this.saveFileDialog1.Filter = "All SCX Scripts |*.scx|Vita/Steam SCR Scripts |*.scr";
             this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
             // 
             // repackToolStripMenuItem
