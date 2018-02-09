@@ -140,9 +140,9 @@ namespace NPCSManager {
                 case 0x8040:
                     return ':';
                 case 0x8041:
-                    return '-';
-                case 0x8042:
                     return ';';
+                case 0x8042:
+                    return '-';
                 case 0x8043:
                     return '!';
                 case 0x8044:

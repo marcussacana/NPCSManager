@@ -102,7 +102,7 @@
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.Filter = "All SCX Scripts |*.scx";
+            this.openFileDialog1.Filter = "All SCX Scripts |*.scx|Vita/Steam SCR Scripts |*.scr";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // saveFileDialog1
