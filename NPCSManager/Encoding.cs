@@ -334,7 +334,7 @@ namespace NPCSManager {
                 case 0x80c0:
                     return '，';
                 case 0x80c1:
-                    return '.';
+                    return ''';
                 case 0x80c2:
                     return '：';
                 case 0x80c3:
