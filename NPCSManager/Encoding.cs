@@ -14631,11 +14631,11 @@ namespace NPCSManager {
                     return 0x8043;
                 case '?':
                     return 0x8044;
-                case '.':
+                case '@':
                     return 0x8045;
                 case '\'':
                     return 0x8046;
-                case '@':
+                case '.':
                     return 0x8047;
                 case '#':
                     return 0x8048;
@@ -28527,73 +28527,73 @@ namespace NPCSManager {
                     return 0x9CC4;
                 case '閒':
                     return 0x9CC5;
-		case 'À':
-		    return 0x9f00;
-		case 'Á':
-	            return 0x9f01;
-		case 'Â':
-		    return 0x9f02;
-		case 'Ã':
-	            return 0x9f03;
-		case 'Ç':
-		    return 0x9f07;
-		case 'É':
-		    return 0x9f09;
-		case 'Ê':
-		    return 0x9f0a;
-		case 'Ì':
+				case 'À':
+					return 0x9f00;
+				case 'Á':
+					return 0x9f01;
+				case 'Â':
+					return 0x9f02;
+				case 'Ã':
+					return 0x9f03;
+				case 'Ç':
+					return 0x9f07;
+				case 'É':
+					return 0x9f09;
+				case 'Ê':
+					return 0x9f0a;
+				case 'Ì':
 					return 0x9f0c;
-		case 'Í':
+				case 'Í':
 					return 0x9f0d;
-		case 'Î':
+				case 'Î':
 					return 0x9f0e;
-		case 'Ò':
+				case 'Ò':
 					return 0x9f12;
-		case 'Ó':
+				case 'Ó':
 					return 0x9f13;
-		case 'Ô':
+				case 'Ô':
 					return 0x9f14;
-		case 'Õ':
+				case 'Õ':
 					return 0x9f15;
-		case 'Ù':
+				case 'Ù':
 					return 0x9f19;
-		case 'Ú':
+				case 'Ú':
 					return 0x9f1a;
-		case 'Û':
+				case 'Û':
 					return 0x9f1b;
-		case 'à':
+				case 'à':
 					return 0x9f20;
-		case 'á':
+				case 'á':
 					return 0x9f21;
-		case 'â':
+				case 'â':
 					return 0x9f22;
-		case 'ã':
+				case 'ã':
 					return 0x9f23;
-		case 'ç':
+				case 'ç':
 					return 0x9f27;
-		case 'é':
+				case 'é':
 					return 0x9f29;
-		case 'ê':
+				case 'ê':
 					return 0x9f2a;
-		case 'ì':
+				case 'ì':
 					return 0x9f2c;
-		case 'í':
+				case 'í':
 					return 0x9f2d;
-		case 'î':
+				case 'î':
 					return 0x9f2e;
-		case 'ò':
+				case 'ò':
 					return 0x9f32;
-		case 'ó':
+				case 'ó':
 					return 0x9f33;
-		case 'ô':
+				case 'ô':
 					return 0x9f34;
-		case 'õ':
+				case 'õ':
 					return 0x9f35;
-		case 'ù':
+				case 'ù':
 					return 0x9f39;
-		case 'ú':
+				case 'ú':
 					return 0x9f3a;
-		case 'û':
+				case 'û':
 					return 0x9f3b;
             }
         }
