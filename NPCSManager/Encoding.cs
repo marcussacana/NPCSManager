@@ -14466,7 +14466,7 @@ namespace NPCSManager {
 					return 'î';
 				case 0x9f32:
 					return 'ò';
-				case 0x9f33;
+				case 0x9f33:
 					return 'ó';
 				case 0x9f34:
 					return 'ô';
@@ -28583,7 +28583,7 @@ namespace NPCSManager {
 					return 0x9f2e;
 				case 'ò':
 					return 0x9f32;
-				case 'ó';
+				case 'ó':
 					return 0x9f33;
 				case 'ô':
 					return 0x9f34;
