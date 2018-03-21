@@ -148,7 +148,7 @@ namespace NPCSManager {
                 case 0x8044:
                     return '?';
                 case 0x8047:
-                    return '@';
+                    return '.';
                 case 0x8046:
                     return '\'';
                 case 0x8045:
