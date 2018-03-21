@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14409,6 +14409,75 @@ namespace NPCSManager {
                     return '隆';
                 case 0x9cc7:
                     return '﨩';
+					
+				case 0x9f00:
+					return 'À';
+				case 0x9f01:
+					return 'Á';
+				case 0x9f02:
+					return 'Â';
+				case 0x9f03:
+					return 'Ã';
+				case 0x9f07:
+					return 'Ç';
+				case 0x9f09:
+					return 'É';
+				case 0x9f0a:
+					return 'Ê';
+				case 0x9f0c:
+					return 'Ì';
+				case 0x9f0d:
+					return 'Í';
+				case 0x9f0e:
+					return 'Î';
+				case 0x9f12:
+					return 'Ò';
+				case 0x9f13:
+					return 'Ó';
+				case 0x9f14:
+					return 'Ô';
+				case 0x9f15:
+					return 'Õ';
+				case 0x9f19:
+					return 'Ù';
+				case 0x9f1a:
+					return 'Ú';
+				case 0x9f1b:
+					return 'Û';
+				case 0x9f20:
+					return 'à';
+				case 0x9f21:
+					return 'á';
+				case 0x9f22:
+					return 'â';
+				case 0x9f23:
+					return 'ã';
+				case 0x9f27:
+					return 'ç';
+				case 0x9f29:
+					return 'é';
+				case 0x9f2a:
+					return 'ê';
+				case 0x9f2c:
+					return 'ì';
+				case 0x9f2d:
+					return 'í';
+				case 0x9f2e:
+					return 'î';
+				case 0x9f32:
+					return 'ò';
+				case 0x9f33;
+					return 'ó';
+				case 0x9f34:
+					return 'ô';
+				case 0x9f35:
+					return 'õ';
+				case 0x9f39:
+					return 'ù';
+				case 0x9f3a:
+					return 'ú';
+				case 0x9f3b:
+					return 'û';
 
 
                 //more
@@ -28458,6 +28527,74 @@ namespace NPCSManager {
                     return 0x9CC4;
                 case '閒':
                     return 0x9CC5;
+				case 'À':
+					return 0x9f00;
+				case 'Á':
+					return 0x9f01;
+				case 'Â':
+					return 0x9f02;
+				case 'Ã':
+					return 0x9f03;
+				case 'Ç':
+					return 0x9f07;
+				case 'É':
+					return 0x9f09;
+				case 'Ê':
+					return 0x9f0a;
+				case 'Ì':
+					return 0x9f0c;
+				case 'Í':
+					return 0x9f0d;
+				case 'Î':
+					return 0x9f0e;
+				case 'Ò':
+					return 0x9f12;
+				case 'Ó':
+					return 0x9f13;
+				case 'Ô':
+					return 0x9f14;
+				case 'Õ':
+					return 0x9f15;
+				case 'Ù':
+					return 0x9f19;
+				case 'Ú':
+					return 0x9f1a;
+				case 'Û':
+					return 0x9f1b;
+				case 'à':
+					return 0x9f20;
+				case 'á':
+					return 0x9f21;
+				case 'â':
+					return 0x9f22;
+				case 'ã':
+					return 0x9f23;
+				case 'ç':
+					return 0x9f27;
+				case 'é':
+					return 0x9f29;
+				case 'ê':
+					return 0x9f2a;
+				case 'ì':
+					return 0x9f2c;
+				case 'í':
+					return 0x9f2d;
+				case 'î':
+					return 0x9f2e;
+				case 'ò':
+					return 0x9f32;
+				case 'ó';
+					return 0x9f33;
+				case 'ô':
+					return 0x9f34;
+				case 'õ':
+					return 0x9f35;
+				case 'ù':
+					return 0x9f39;
+				case 'ú':
+					return 0x9f3a;
+				case 'û':
+					return 0x9f3b;
             }
         }
    }
