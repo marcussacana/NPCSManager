@@ -14815,8 +14815,6 @@ namespace NPCSManager {
                     return 0x80BF;
                 case '，':
                     return 0x80C0;
-                case '.':
-		    return 0x80C1;
 		case '：':
                     return 0x80C2;
                 case '；':
