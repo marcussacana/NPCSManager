@@ -10,133 +10,133 @@ namespace NPCSManager {
                 default:
                     return '�';
                 case 0x8000:
-                    return ' ';
-                case 0x8001:
-                    return '0';
-                case 0x8002:
-                    return '1';
-                case 0x8003:
-                    return '2';
-                case 0x8004:
-                    return '3';
-                case 0x8005:
-                    return '4';
-                case 0x8006:
-                    return '5';
-                case 0x8007:
-                    return '6';
-                case 0x8008:
-                    return '7';
-                case 0x8009:
-                    return '8';
-                case 0x800a:
-                    return '9';
-                case 0x800b:
-                    return 'A';
-                case 0x800c:
-                    return 'B';
-                case 0x800d:
-                    return 'C';
-                case 0x800e:
-                    return 'D';
-                case 0x800f:
-                    return 'E';
-                case 0x8010:
-                    return 'F';
-                case 0x8011:
-                    return 'G';
-                case 0x8012:
-                    return 'H';
-                case 0x8013:
-                    return 'I';
-                case 0x8014:
-                    return 'J';
-                case 0x8015:
-                    return 'K';
-                case 0x8016:
-                    return 'L';
-                case 0x8017:
-                    return 'M';
-                case 0x8018:
-                    return 'N';
-                case 0x8019:
-                    return 'O';
-                case 0x801a:
-                    return 'P';
-                case 0x801b:
-                    return 'Q';
-                case 0x801c:
-                    return 'R';
-                case 0x801d:
-                    return 'S';
-                case 0x801e:
-                    return 'T';
-                case 0x801f:
-                    return 'U';
-                case 0x8020:
-                    return 'V';
-                case 0x8021:
-                    return 'W';
-                case 0x8022:
-                    return 'X';
-                case 0x8023:
-                    return 'Y';
-                case 0x8024:
-                    return 'Z';
-                case 0x8025:
-                    return 'a';
-                case 0x8026:
-                    return 'b';
-                case 0x8027:
-                    return 'c';
-                case 0x8028:
-                    return 'd';
-                case 0x8029:
-                    return 'e';
-                case 0x802a:
-                    return 'f';
-                case 0x802b:
-                    return 'g';
-                case 0x802c:
-                    return 'h';
-                case 0x802d:
-                    return 'i';
-                case 0x802e:
-                    return 'j';
-                case 0x802f:
-                    return 'k';
-                case 0x8030:
-                    return 'l';
-                case 0x8031:
-                    return 'm';
-                case 0x8032:
-                    return 'n';
-                case 0x8033:
-                    return 'o';
-                case 0x8034:
-                    return 'p';
-                case 0x8035:
-                    return 'q';
-                case 0x8036:
-                    return 'r';
-                case 0x8037:
-                    return 's';
-                case 0x8038:
-                    return 't';
-                case 0x8039:
-                    return 'u';
-                case 0x803a:
-                    return 'v';
-                case 0x803b:
-                    return 'w';
-                case 0x803c:
-                    return 'x';
-                case 0x803d:
-                    return 'y';
-                case 0x803e:
-                    return 'z';
-                case 0x803f:
                     return '　';
+                case 0x8001:
+                    return '０';
+                case 0x8002:
+                    return '１';
+                case 0x8003:
+                    return '２';
+                case 0x8004:
+                    return '３';
+                case 0x8005:
+                    return '４';
+                case 0x8006:
+                    return '５';
+                case 0x8007:
+                    return '６';
+                case 0x8008:
+                    return '７';
+                case 0x8009:
+                    return '８';
+                case 0x800a:
+                    return '９';
+                case 0x800b:
+                    return 'Ａ';
+                case 0x800c:
+                    return 'Ｂ';
+                case 0x800d:
+                    return 'Ｃ';
+                case 0x800e:
+                    return 'Ｄ';
+                case 0x800f:
+                    return 'Ｅ';
+                case 0x8010:
+                    return 'Ｆ';
+                case 0x8011:
+                    return 'Ｇ';
+                case 0x8012:
+                    return 'Ｈ';
+                case 0x8013:
+                    return 'Ｉ';
+                case 0x8014:
+                    return 'Ｊ';
+                case 0x8015:
+                    return 'Ｋ';
+                case 0x8016:
+                    return 'Ｌ';
+                case 0x8017:
+                    return 'Ｍ';
+                case 0x8018:
+                    return 'Ｎ';
+                case 0x8019:
+                    return 'Ｏ';
+                case 0x801a:
+                    return 'Ｐ';
+                case 0x801b:
+                    return 'Ｑ';
+                case 0x801c:
+                    return 'Ｒ';
+                case 0x801d:
+                    return 'Ｓ';
+                case 0x801e:
+                    return 'Ｔ';
+                case 0x801f:
+                    return 'Ｕ';
+                case 0x8020:
+                    return 'Ｖ';
+                case 0x8021:
+                    return 'Ｗ';
+                case 0x8022:
+                    return 'Ｘ';
+                case 0x8023:
+                    return 'Ｙ';
+                case 0x8024:
+                    return 'Ｚ';
+                case 0x8025:
+                    return 'ａ';
+                case 0x8026:
+                    return 'ｂ';
+                case 0x8027:
+                    return 'ｃ';
+                case 0x8028:
+                    return 'ｄ';
+                case 0x8029:
+                    return 'ｅ';
+                case 0x802a:
+                    return 'ｆ';
+                case 0x802b:
+                    return 'ｇ';
+                case 0x802c:
+                    return 'ｈ';
+                case 0x802d:
+                    return 'ｉ';
+                case 0x802e:
+                    return 'ｊ';
+                case 0x802f:
+                    return 'ｋ';
+                case 0x8030:
+                    return 'ｌ';
+                case 0x8031:
+                    return 'ｍ';
+                case 0x8032:
+                    return 'ｎ';
+                case 0x8033:
+                    return 'ｏ';
+                case 0x8034:
+                    return 'ｐ';
+                case 0x8035:
+                    return 'ｑ';
+                case 0x8036:
+                    return 'ｒ';
+                case 0x8037:
+                    return 'ｓ';
+                case 0x8038:
+                    return 'ｔ';
+                case 0x8039:
+                    return 'ｕ';
+                case 0x803a:
+                    return 'ｖ';
+                case 0x803b:
+                    return 'ｗ';
+                case 0x803c:
+                    return 'ｘ';
+                case 0x803d:
+                    return 'ｙ';
+                case 0x803e:
+                    return 'ｚ';
+                case 0x803f:
+                    return ' ';
                 case 0x8040:
                     return ':';
                 case 0x8042:
@@ -144,11 +144,11 @@ namespace NPCSManager {
                 case 0x8041:
                     return ';';
                 case 0x8043:
-                    return '!';
+                    return '！';
                 case 0x8044:
-                    return '?';
+                    return '？';
                 case 0x8045:
-                    return '\'';
+                    return '’';
                 case 0x8046:
                     return '@';
                 case 0x8047:
@@ -156,7 +156,7 @@ namespace NPCSManager {
                 case 0x8048:
                     return '#';
                 case 0x8049:
-                    return '%';
+                    return '％';
                 case 0x804a:
                     return '~';
                 case 0x804b:
@@ -166,9 +166,9 @@ namespace NPCSManager {
                 case 0x804d:
                     return '`';
                 case 0x804e:
-                    return '(';
+                    return '（';
                 case 0x804f:
-                    return ')';
+                    return '）';
                 case 0x8050:
                     return '°';
                 case 0x8051:
@@ -192,7 +192,7 @@ namespace NPCSManager {
                 case 0x805a:
                     return '\'';
                 case 0x805b:
-                    return ',';
+                    return '，';
                 case 0x805c:
                     return '[';
                 case 0x805d:
@@ -204,135 +204,135 @@ namespace NPCSManager {
                 case 0x8061:
                     return '|';
                 case 0x8080:
-                    return '０';
+                    return '0';
                 case 0x8081:
-                    return '１';
+                    return '1';
                 case 0x8082:
-                    return '２';
+                    return '2';
                 case 0x8083:
-                    return '３';
+                    return '3';
                 case 0x8084:
-                    return '４';
+                    return '4';
                 case 0x8085:
-                    return '５';
+                    return '5';
                 case 0x8086:
-                    return '６';
+                    return '6';
                 case 0x8087:
-                    return '７';
+                    return '7';
                 case 0x8088:
-                    return '８';
+                    return '8';
                 case 0x8089:
-                    return '９';
+                    return '9';
                 case 0x808a:
-                    return 'Ａ';
+                    return 'A';
                 case 0x808b:
-                    return 'Ｂ';
+                    return 'B';
                 case 0x808c:
-                    return 'Ｃ';
+                    return 'C';
                 case 0x808d:
-                    return 'Ｄ';
+                    return 'D';
                 case 0x808e:
-                    return 'Ｅ';
+                    return 'E';
                 case 0x808f:
-                    return 'Ｆ';
+                    return 'F';
                 case 0x8090:
-                    return 'Ｇ';
+                    return 'G';
                 case 0x8091:
-                    return 'Ｈ';
+                    return 'H';
                 case 0x8092:
-                    return 'Ｉ';
+                    return 'I';
                 case 0x8093:
-                    return 'Ｊ';
+                    return 'J';
                 case 0x8094:
-                    return 'Ｋ';
+                    return 'K';
                 case 0x8095:
-                    return 'Ｌ';
+                    return 'L';
                 case 0x8096:
-                    return 'Ｍ';
+                    return 'M';
                 case 0x8097:
-                    return 'Ｎ';
+                    return 'N';
                 case 0x8098:
-                    return 'Ｏ';
+                    return 'O';
                 case 0x8099:
-                    return 'Ｐ';
+                    return 'P';
                 case 0x809a:
-                    return 'Ｑ';
+                    return 'Q';
                 case 0x809b:
-                    return 'Ｒ';
+                    return 'R';
                 case 0x809c:
-                    return 'Ｓ';
+                    return 'S';
                 case 0x809d:
-                    return 'Ｔ';
+                    return 'T';
                 case 0x809e:
-                    return 'Ｕ';
+                    return 'U';
                 case 0x809f:
-                    return 'Ｖ';
+                    return 'V';
                 case 0x80a0:
-                    return 'Ｗ';
+                    return 'W';
                 case 0x80a1:
-                    return 'Ｘ';
+                    return 'X';
                 case 0x80a2:
-                    return 'Ｙ';
+                    return 'Y';
                 case 0x80a3:
-                    return 'Ｚ';
+                    return 'Z';
                 case 0x80a4:
-                    return 'ａ';
+                    return 'a';
                 case 0x80a5:
-                    return 'ｂ';
+                    return 'b';
                 case 0x80a6:
-                    return 'ｃ';
+                    return 'c';
                 case 0x80a7:
-                    return 'ｄ';
+                    return 'd';
                 case 0x80a8:
-                    return 'ｅ';
+                    return 'e';
                 case 0x80a9:
-                    return 'ｆ';
+                    return 'f';
                 case 0x80aa:
-                    return 'ｇ';
+                    return 'g';
                 case 0x80ab:
-                    return 'ｈ';
+                    return 'h';
                 case 0x80ac:
-                    return 'ｉ';
+                    return 'i';
                 case 0x80ad:
-                    return 'ｊ';
+                    return 'j';
                 case 0x80ae:
-                    return 'ｋ';
+                    return 'k';
                 case 0x80af:
-                    return 'ｌ';
+                    return 'l';
                 case 0x80b0:
-                    return 'ｍ';
+                    return 'm';
                 case 0x80b1:
-                    return 'ｎ';
+                    return 'n';
                 case 0x80b2:
-                    return 'ｏ';
+                    return 'o';
                 case 0x80b3:
-                    return 'ｐ';
+                    return 'p';
                 case 0x80b4:
-                    return 'ｑ';
+                    return 'q';
                 case 0x80b5:
-                    return 'ｒ';
+                    return 'r';
                 case 0x80b6:
-                    return 'ｓ';
+                    return 's';
                 case 0x80b7:
-                    return 'ｔ';
+                    return 't';
                 case 0x80b8:
-                    return 'ｕ';
+                    return 'u';
                 case 0x80b9:
-                    return 'ｖ';
+                    return 'v';
                 case 0x80ba:
-                    return 'ｗ';
+                    return 'w';
                 case 0x80bb:
-                    return 'ｘ';
+                    return 'x';
                 case 0x80bc:
-                    return 'ｙ';
+                    return 'y';
                 case 0x80bd:
-                    return 'ｚ';
+                    return 'z';
                 case 0x80be:
                     return '、';
                 case 0x80bf:
                     return '。';
                 case 0x80c0:
-                    return '，';
+                    return ',';
                 case 0x80c1:
                     return '.';
                 case 0x80c2:
@@ -340,9 +340,9 @@ namespace NPCSManager {
                 case 0x80c3:
                     return '；';
                 case 0x80c4:
-                    return '？';
+                    return '?';
                 case 0x80c5:
-                    return '！';
+                    return '!';
                 case 0x80c6:
                     return '゛';
                 case 0x80c7:
@@ -350,15 +350,15 @@ namespace NPCSManager {
                 case 0x80c8:
                     return '‘';
                 case 0x80c9:
-                    return '’';
+                    return '\'';
                 case 0x80ca:
                     return '“';
                 case 0x80cb:
                     return '”';
                 case 0x80cc:
-                    return '（';
+                    return '(';
                 case 0x80cd:
-                    return '）';
+                    return ')';
                 case 0x80ce:
                     return '〔';
                 case 0x80cf:
@@ -450,7 +450,7 @@ namespace NPCSManager {
                 case 0x80fc:
                     return 'ヶ';
 				case 0x8112:
-					return '％';
+					return '%';
                 case 0x815d:
                     return 'β';
                 case 0x815e:
@@ -14493,133 +14493,133 @@ namespace NPCSManager {
             switch (Input) {
                 default:
                     throw new Exception("Unk Char");
-                case ' ':
-                    return 0x8000;
-                case '0':
-                    return 0x8001;
-                case '1':
-                    return 0x8002;
-                case '2':
-                    return 0x8003;
-                case '3':
-                    return 0x8004;
-                case '4':
-                    return 0x8005;
-                case '5':
-                    return 0x8006;
-                case '6':
-                    return 0x8007;
-                case '7':
-                    return 0x8008;
-                case '8':
-                    return 0x8009;
-                case '9':
-                    return 0x800A;
-                case 'A':
-                    return 0x800B;
-                case 'B':
-                    return 0x800C;
-                case 'C':
-                    return 0x800D;
-                case 'D':
-                    return 0x800E;
-                case 'E':
-                    return 0x800F;
-                case 'F':
-                    return 0x8010;
-                case 'G':
-                    return 0x8011;
-                case 'H':
-                    return 0x8012;
-                case 'I':
-                    return 0x8013;
-                case 'J':
-                    return 0x8014;
-                case 'K':
-                    return 0x8015;
-                case 'L':
-                    return 0x8016;
-                case 'M':
-                    return 0x8017;
-                case 'N':
-                    return 0x8018;
-                case 'O':
-                    return 0x8019;
-                case 'P':
-                    return 0x801A;
-                case 'Q':
-                    return 0x801B;
-                case 'R':
-                    return 0x801C;
-                case 'S':
-                    return 0x801D;
-                case 'T':
-                    return 0x801E;
-                case 'U':
-                    return 0x801F;
-                case 'V':
-                    return 0x8020;
-                case 'W':
-                    return 0x8021;
-                case 'X':
-                    return 0x8022;
-                case 'Y':
-                    return 0x8023;
-                case 'Z':
-                    return 0x8024;
-                case 'a':
-                    return 0x8025;
-                case 'b':
-                    return 0x8026;
-                case 'c':
-                    return 0x8027;
-                case 'd':
-                    return 0x8028;
-                case 'e':
-                    return 0x8029;
-                case 'f':
-                    return 0x802A;
-                case 'g':
-                    return 0x802B;
-                case 'h':
-                    return 0x802C;
-                case 'i':
-                    return 0x802D;
-                case 'j':
-                    return 0x802E;
-                case 'k':
-                    return 0x802F;
-                case 'l':
-                    return 0x8030;
-                case 'm':
-                    return 0x8031;
-                case 'n':
-                    return 0x8032;
-                case 'o':
-                    return 0x8033;
-                case 'p':
-                    return 0x8034;
-                case 'q':
-                    return 0x8035;
-                case 'r':
-                    return 0x8036;
-                case 's':
-                    return 0x8037;
-                case 't':
-                    return 0x8038;
-                case 'u':
-                    return 0x8039;
-                case 'v':
-                    return 0x803A;
-                case 'w':
-                    return 0x803B;
-                case 'x':
-                    return 0x803C;
-                case 'y':
-                    return 0x803D;
-                case 'z':
-                    return 0x803E;
                 case '　':
+                    return 0x8000;
+                case '０':
+                    return 0x8001;
+                case '１':
+                    return 0x8002;
+                case '２':
+                    return 0x8003;
+                case '３':
+                    return 0x8004;
+                case '４':
+                    return 0x8005;
+                case '５':
+                    return 0x8006;
+                case '６':
+                    return 0x8007;
+                case '７':
+                    return 0x8008;
+                case '８':
+                    return 0x8009;
+                case '９':
+                    return 0x800A;
+                case 'Ａ':
+                    return 0x800B;
+                case 'Ｂ':
+                    return 0x800C;
+                case 'Ｃ':
+                    return 0x800D;
+                case 'Ｄ':
+                    return 0x800E;
+                case 'Ｅ':
+                    return 0x800F;
+                case 'Ｆ':
+                    return 0x8010;
+                case 'Ｇ':
+                    return 0x8011;
+                case 'Ｈ':
+                    return 0x8012;
+                case 'Ｉ':
+                    return 0x8013;
+                case 'Ｊ':
+                    return 0x8014;
+                case 'Ｋ':
+                    return 0x8015;
+                case 'Ｌ':
+                    return 0x8016;
+                case 'Ｍ':
+                    return 0x8017;
+                case 'Ｎ':
+                    return 0x8018;
+                case 'Ｏ':
+                    return 0x8019;
+                case 'Ｐ':
+                    return 0x801A;
+                case 'Ｑ':
+                    return 0x801B;
+                case 'Ｒ':
+                    return 0x801C;
+                case 'Ｓ':
+                    return 0x801D;
+                case 'Ｔ':
+                    return 0x801E;
+                case 'Ｕ':
+                    return 0x801F;
+                case 'Ｖ':
+                    return 0x8020;
+                case 'Ｗ':
+                    return 0x8021;
+                case 'Ｘ':
+                    return 0x8022;
+                case 'Ｙ':
+                    return 0x8023;
+                case 'Ｚ':
+                    return 0x8024;
+                case 'ａ':
+                    return 0x8025;
+                case 'ｂ':
+                    return 0x8026;
+                case 'ｃ':
+                    return 0x8027;
+                case 'ｄ':
+                    return 0x8028;
+                case 'ｅ':
+                    return 0x8029;
+                case 'ｆ':
+                    return 0x802A;
+                case 'ｇ':
+                    return 0x802B;
+                case 'ｈ':
+                    return 0x802C;
+                case 'ｉ':
+                    return 0x802D;
+                case 'ｊ':
+                    return 0x802E;
+                case 'ｋ':
+                    return 0x802F;
+                case 'ｌ':
+                    return 0x8030;
+                case 'ｍ':
+                    return 0x8031;
+                case 'ｎ':
+                    return 0x8032;
+                case 'ｏ':
+                    return 0x8033;
+                case 'ｐ':
+                    return 0x8034;
+                case 'ｑ':
+                    return 0x8035;
+                case 'ｒ':
+                    return 0x8036;
+                case 'ｓ':
+                    return 0x8037;
+                case 'ｔ':
+                    return 0x8038;
+                case 'ｕ':
+                    return 0x8039;
+                case 'ｖ':
+                    return 0x803A;
+                case 'ｗ':
+                    return 0x803B;
+                case 'ｘ':
+                    return 0x803C;
+                case 'ｙ':
+                    return 0x803D;
+                case 'ｚ':
+                    return 0x803E;
+                case ' ':
                     return 0x803F;
                 case ':':
                     return 0x8040;
@@ -14627,11 +14627,11 @@ namespace NPCSManager {
                     return 0x8042;
                 case ';':
                     return 0x8041;
-                case '!':
+                case '！':
                     return 0x8043;
-                case '?':
+                case '？':
                     return 0x8044;
-                case '\'':
+                case '’':
                    return 0x8045;
                 case '@':
                     return 0x8046;
@@ -14639,7 +14639,7 @@ namespace NPCSManager {
                     return 0x8047;
                 case '#':
                     return 0x8048;
-                case '%':
+                case '％':
                     return 0x8049;
                 case '~':
                     return 0x804A;
@@ -14649,9 +14649,9 @@ namespace NPCSManager {
                     return 0x804C;
                 case '`':
                     return 0x804D;
-                case '(':
+                case '（':
                     return 0x804E;
-                case ')':
+                case '）':
                     return 0x804F;
                 case '°':
                     return 0x8050;
@@ -14673,7 +14673,7 @@ namespace NPCSManager {
                     return 0x8058;
                 case '$':
                     return 0x8059;
-                case ',':
+                case '，':
                     return 0x805B;
                 case '[':
                     return 0x805C;
@@ -14685,157 +14685,157 @@ namespace NPCSManager {
                     return 0x805F;
                 case '|':
                     return 0x8061;
-                case '０':
+                case '0':
                     return 0x8080;
-                case '１':
+                case '1':
                     return 0x8081;
-                case '２':
+                case '2':
                     return 0x8082;
-                case '３':
+                case '3':
                     return 0x8083;
-                case '４':
+                case '4':
                     return 0x8084;
-                case '５':
+                case '5':
                     return 0x8085;
-                case '６':
+                case '6':
                     return 0x8086;
-                case '７':
+                case '7':
                     return 0x8087;
-                case '８':
+                case '8':
                     return 0x8088;
-                case '９':
+                case '9':
                     return 0x8089;
-                case 'Ａ':
+                case 'A':
                     return 0x808A;
-                case 'Ｂ':
+                case 'B':
                     return 0x808B;
-                case 'Ｃ':
+                case 'C':
                     return 0x808C;
-                case 'Ｄ':
+                case 'C':
                     return 0x808D;
-                case 'Ｅ':
+                case 'E':
                     return 0x808E;
-                case 'Ｆ':
+                case 'F':
                     return 0x808F;
-                case 'Ｇ':
+                case 'G':
                     return 0x8090;
-                case 'Ｈ':
+                case 'H':
                     return 0x8091;
-                case 'Ｉ':
+                case 'I':
                     return 0x8092;
-                case 'Ｊ':
+                case 'J':
                     return 0x8093;
-                case 'Ｋ':
+                case 'K':
                     return 0x8094;
-                case 'Ｌ':
+                case 'L':
                     return 0x8095;
-                case 'Ｍ':
+                case 'M':
                     return 0x8096;
-                case 'Ｎ':
+                case 'N':
                     return 0x8097;
-                case 'Ｏ':
+                case 'O':
                     return 0x8098;
-                case 'Ｐ':
+                case 'P':
                     return 0x8099;
-                case 'Ｑ':
+                case 'Q':
                     return 0x809A;
-                case 'Ｒ':
+                case 'R':
                     return 0x809B;
-                case 'Ｓ':
+                case 'S':
                     return 0x809C;
-                case 'Ｔ':
+                case 'T':
                     return 0x809D;
-                case 'Ｕ':
+                case 'U':
                     return 0x809E;
-                case 'Ｖ':
+                case 'V':
                     return 0x809F;
-                case 'Ｗ':
+                case 'W':
                     return 0x80A0;
-                case 'Ｘ':
+                case 'X':
                     return 0x80A1;
-                case 'Ｙ':
+                case 'Y':
                     return 0x80A2;
-                case 'Ｚ':
+                case 'Z':
                     return 0x80A3;
-                case 'ａ':
+                case 'a':
                     return 0x80A4;
-                case 'ｂ':
+                case 'b':
                     return 0x80A5;
-                case 'ｃ':
+                case 'c':
                     return 0x80A6;
-                case 'ｄ':
+                case 'd':
                     return 0x80A7;
-                case 'ｅ':
+                case 'e':
                     return 0x80A8;
-                case 'ｆ':
+                case 'f':
                     return 0x80A9;
-                case 'ｇ':
+                case 'g':
                     return 0x80AA;
-                case 'ｈ':
+                case 'h':
                     return 0x80AB;
-                case 'ｉ':
+                case 'i':
                     return 0x80AC;
-                case 'ｊ':
+                case 'j':
                     return 0x80AD;
-                case 'ｋ':
+                case 'k':
                     return 0x80AE;
-                case 'ｌ':
+                case 'l':
                     return 0x80AF;
-                case 'ｍ':
+                case 'm':
                     return 0x80B0;
-                case 'ｎ':
+                case 'n':
                     return 0x80B1;
-                case 'ｏ':
+                case 'o':
                     return 0x80B2;
-                case 'ｐ':
+                case 'p':
                     return 0x80B3;
-                case 'ｑ':
+                case 'q':
                     return 0x80B4;
-                case 'ｒ':
+                case 'r':
                     return 0x80B5;
-                case 'ｓ':
+                case 's':
                     return 0x80B6;
-                case 'ｔ':
+                case 't':
                     return 0x80B7;
-                case 'ｕ':
+                case 'u':
                     return 0x80B8;
-                case 'ｖ':
+                case 'v':
                     return 0x80B9;
-                case 'ｗ':
+                case 'w':
                     return 0x80BA;
-                case 'ｘ':
+                case 'x':
                     return 0x80BB;
-                case 'ｙ':
+                case 'y':
                     return 0x80BC;
-                case 'ｚ':
+                case 'z':
                     return 0x80BD;
                 case '、':
                     return 0x80BE;
                 case '。':
                     return 0x80BF;
-                case '，':
+                case ',':
                     return 0x80C0;
                 case '：':
                     return 0x80C2;
                 case '；':
                     return 0x80C3;
-                case '？':
+                case '?':
                     return 0x80C4;
-                case '！':
+                case '!':
                     return 0x80C5;
                 case '゛':
                     return 0x80C6;
                 case '‘':
                     return 0x80C8;
-                case '’':
+                case '\'':
                     return 0x80C9;
                 case '“':
                     return 0x80CA;
                 case '”':
                     return 0x80CB;
-                case '（':
+                case '(':
                     return 0x80CC;
-                case '）':
+                case ')':
                     return 0x80CD;
                 case '〔':
                     return 0x80CE;
@@ -14915,7 +14915,7 @@ namespace NPCSManager {
                     return 0x80FB;
                 case 'ヶ':
                     return 0x80FC;
-				case '％':
+				case '%':
 					return 0x8112;
                 case 'β':
                     return 0x815D;
