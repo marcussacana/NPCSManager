@@ -450,7 +450,7 @@ namespace NPCSManager {
                 case 0x80fc:
                     return 'ヶ';
 				case 0x8112:
-					return '%';
+					return '％';
                 case 0x815d:
                     return 'β';
                 case 0x815e:
@@ -581,8 +581,6 @@ namespace NPCSManager {
                     return 'Ḉ';
                 case 0x819d:
                     return '￡';
-                case 0x819e:
-                    return '％';
                 case 0x81a0:
                     return '＃';
                 case 0x81a1:
@@ -14917,7 +14915,7 @@ namespace NPCSManager {
                     return 0x80FB;
                 case 'ヶ':
                     return 0x80FC;
-				case '%':
+				case '％':
 					return 0x8112;
                 case 'β':
                     return 0x815D;
@@ -15027,8 +15025,6 @@ namespace NPCSManager {
                     return 0x819C;
                 case '￡':
                     return 0x819D;
-                case '％':
-                    return 0x819E;
                 case '＃':
                     return 0x81A0;
                 case '＆':
