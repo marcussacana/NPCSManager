@@ -14711,7 +14711,7 @@ namespace NPCSManager {
                     return 0x808B;
                 case 'C':
                     return 0x808C;
-                case 'C':
+                case 'D':
                     return 0x808D;
                 case 'E':
                     return 0x808E;
