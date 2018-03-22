@@ -588,7 +588,7 @@ namespace NPCSManager {
                 case 0x81a2:
                     return '×';
                 case 0x81a3:
-                    return '＠';
+                    return '．';
                 case 0x81a4:
                     return '§';
                 case 0x81a5:
@@ -15029,7 +15029,7 @@ namespace NPCSManager {
                     return 0x81A0;
                 case '＆':
                     return 0x81A1;
-                case '＠':
+                case '．':
                     return 0x81A3;
                 case '§':
                     return 0x81A4;
@@ -28595,6 +28595,8 @@ namespace NPCSManager {
 					return 0x9f3a;
 				case 'û':
 					return 0x9f3b;
+				case '.':
+					return 0x80c1;
             }
         }
    }
