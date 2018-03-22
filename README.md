@@ -34,4 +34,5 @@ Closing the tag is not necessary if the color tag is done at the end of the dial
 This is a [0x112233...] sample text
 
 [0x??????] \(3 bytes or more of length) = Unknown command, most likely has to do with engine triggers or flags.
+
 Don't alter those unless you're absolutely certain of what you're doing.
