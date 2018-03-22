@@ -139,9 +139,9 @@ namespace NPCSManager {
                     return '　';
                 case 0x8040:
                     return ':';
-                case 0x8041:
-                    return '-';
                 case 0x8042:
+                    return '-';
+                case 0x8041:
                     return ';';
                 case 0x8043:
                     return '!';
@@ -449,6 +449,8 @@ namespace NPCSManager {
                     return 'ヵ';
                 case 0x80fc:
                     return 'ヶ';
+				case 0x8112:
+					return '%';
                 case 0x815d:
                     return 'β';
                 case 0x815e:
@@ -14624,9 +14626,9 @@ namespace NPCSManager {
                 case ':':
                     return 0x8040;
                 case '-':
-                    return 0x8041;
-                case ';':
                     return 0x8042;
+                case ';':
+                    return 0x8041;
                 case '!':
                     return 0x8043;
                 case '?':
@@ -14915,6 +14917,8 @@ namespace NPCSManager {
                     return 0x80FB;
                 case 'ヶ':
                     return 0x80FC;
+				case '%':
+					return 0x8112;
                 case 'β':
                     return 0x815D;
                 case 'Υ':
