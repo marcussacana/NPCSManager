@@ -14,12 +14,14 @@ Originally created to edit scripts from the PC version of STEINS;GATE 0, but alt
 This is a sam[0x8400]le text
 
 [0x????] = Character missing in the Encoding.cs
+When modifying Encoding.cs, remember to alter both the Decode and Encode sections to avoid problems.
 
 
-### Custom Color in Word
+### Custom colors in words
 This is a <#000000[0x2414]#>sample <#FFFFFFtext
 
-<#?????? = Begin of the Color Tag (No need to close the tag if this is the last color change in the sentence)
+<#?????? = Beginning of the color tag
+Closing the tag is not necessary if the color tag is done at the end of the dialogue (not the sentence/word!).
 
 [0x????] = Unknown Tag parameter
 
@@ -27,6 +29,7 @@ This is a <#000000[0x2414]#>sample <#FFFFFFtext
 
 
 ### Unknown
-this is a [0x112233...] sample text
+This is a [0x112233...] sample text
 
-[0x??????] \(3 bytes or more of length) = Unknown command, most likely has to do with engine triggers or flags. Don't alter those.
+[0x??????] \(3 bytes or more of length) = Unknown command, most likely has to do with engine triggers or flags.
+Don't alter those unless you're absolutely certain of what you're doing.
