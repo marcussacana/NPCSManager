@@ -50,7 +50,7 @@ namespace NPCSGui {
 
         private void extractToolStripMenuItem_Click(object sender, EventArgs e) {
             OpenFileDialog FD = new OpenFileDialog();
-            FD.Filter = "All MPK Files|*.mpk";
+            FD.Filter = "All MPK Files |*.mpk";
             if (FD.ShowDialog() == DialogResult.OK) {
                 MPKManager Reader = new MPKManager(new StreamReader(FD.FileName).BaseStream);
                 NPCSManager.File[] Files = Reader.Open();

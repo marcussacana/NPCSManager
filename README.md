@@ -1,13 +1,11 @@
-## Nitro+ Console Script Manager (NPCSM) - v0.9 - Need Char Remap
+## Nitro+ Console Script Manager (NPCSM) - v0.9.6
 [![Build Status](https://travis-ci.org/ForumHulp/pageaddon.svg?branch=master)](http://vnx.uvnworks.com)
 
-A DLL Library tool to allow you write your own string editor in C#
+A DLL Library tool made to allow easy modifying of strings in C#, aimed primarily as a means to edit Nitro+/MAGES. game engine scripts.
 
-The Encoding.cs contains a big map for S;G 0 Letters, but i see wrongs mapping, have too much letters and i don't have plan to translate this game, if you need you can remap manually in the Encoding.cs, just give a value between 0x8000~0x9D00 and test in game...
+Encoding.cs is mapped mostly for STEINS;GATE 0 (Vita) characters, but can be easily altered to work with other games and scripts.
 
-Created to edit scripts from Steins;Gate 0: PC
-
-If You like, give-me a star plz~~
+Originally created to edit scripts from the PC version of STEINS;GATE 0, but altered to support the Vita's script files. (PC version shouldn't be too different, if at all)
 
 
 ## String Format
@@ -15,20 +13,26 @@ If You like, give-me a star plz~~
 ### Unknown Letter
 This is a sam[0x8400]le text
 
-[0x????] = Letter missing in the Encoding.cs
+[0x????] = Character missing in the Encoding.cs
+
+When modifying Encoding.cs, remember to alter both the Decode and Encode sections to avoid problems.
 
 
-### Custom Color in Word
+### Custom colors in words
 This is a <#000000[0x2414]#>sample <#FFFFFFtext
 
-<#?????? = Begin of the Color Tag (Don't need close if is the last color change)
+<#?????? = Beginning of the color tag
 
 [0x????] = Unknown Tag parameter
 
 \#> = End of color tag
 
+Closing the tag is not necessary if the color tag is done at the end of the dialogue (not the sentence/word!).
+
 
 ### Unknown
-this is a [0x112233...] sample text
+This is a [0x112233...] sample text
 
-[0x??????] \(3 bytes or more of length) = Unknown command, don't edit 
+[0x??????] \(3 bytes or more of length) = Unknown command, most likely has to do with engine triggers or flags.
+
+Don't alter those unless you're absolutely certain of what you're doing.
