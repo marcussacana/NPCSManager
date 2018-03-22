@@ -14,6 +14,7 @@ Originally created to edit scripts from the PC version of STEINS;GATE 0, but alt
 This is a sam[0x8400]le text
 
 [0x????] = Character missing in the Encoding.cs
+
 When modifying Encoding.cs, remember to alter both the Decode and Encode sections to avoid problems.
 
 
@@ -21,11 +22,12 @@ When modifying Encoding.cs, remember to alter both the Decode and Encode section
 This is a <#000000[0x2414]#>sample <#FFFFFFtext
 
 <#?????? = Beginning of the color tag
-Closing the tag is not necessary if the color tag is done at the end of the dialogue (not the sentence/word!).
 
 [0x????] = Unknown Tag parameter
 
 \#> = End of color tag
+
+Closing the tag is not necessary if the color tag is done at the end of the dialogue (not the sentence/word!).
 
 
 ### Unknown
